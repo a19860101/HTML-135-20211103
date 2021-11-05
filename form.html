@@ -8,61 +8,63 @@
 </head>
 <body>
     <form action="" method="">
-        <label for="user">使用者</label>
-        <input type="text" name="user" id="user">
-        <br>
-        <label for="pw">密碼</label>
-        <input type="password" name="pw" id="pw">
-        <br>
-        <label for="e-mail">Mail</label>
-        <input type="email" name="mail" id="e-mail">
-        <br>
-        <label for="birth">生日</label>
-        <input type="date" name="birth" id="birth">
-        <br>
-        <label for="qty">數量</label>
-        <input type="number" name="qty" id="qty">
-        <br>
-        <label>性別</label>
+        <fieldset>
+            <legend>新增學員</legend>
+            <label for="user">使用者</label>
+            <input type="text" name="user" id="user">
+            <br>
+            <label for="pw">密碼</label>
+            <input type="password" name="pw" id="pw">
+            <br>
+            <label for="e-mail">Mail</label>
+            <input type="email" name="mail" id="e-mail">
+            <br>
+            <label for="birth">生日</label>
+            <input type="date" name="birth" id="birth">
+            <br>
+            <label for="qty">數量</label>
+            <input type="number" name="qty" id="qty">
+            <br>
+            <label>性別</label>
 
-        <label for="male">
-            <input type="radio" name="gender" value="男" id="male">
-            男
-        </label>
+            <label for="male">
+                <input type="radio" name="gender" value="男" id="male">
+                男
+            </label>
 
-        <label for="female">
-            <input type="radio" name="gender" value="女" id="female">
-            女
-        </label>
-        <br>
-        <label>自訂</label>
+            <label for="female">
+                <input type="radio" name="gender" value="女" id="female">
+                女
+            </label>
+            <br>
+            <label>自訂</label>
 
-        <input type="checkbox" name="test" value="選項A" id="optA">
-        <label for="optA">選項A</label>
-        <input type="checkbox" name="test" value="選項B" id="optB">
-        <label for="optB">選項B</label>
-        <input type="checkbox" name="test" value="選項C" id="optC">
-        <label for="optC">選項C</label>
-        <input type="checkbox" name="test" value="選項D" id="optD">
-        <label for="optD">選項D</label>
-        <br>
-        <label for="edu">學歷</label>
-        <select name="edu" id="edu">
-            <option value="國小">國小</option>
-            <option value="國中">國中</option>
-            <option value="高中職">高中職</option>
-            <option value="大專院校">大專院校</option>
-        </select>
-    
-        <br>
-        <input type="submit" value="送出">
-        <input type="reset" value="清除">
-        <input type="button" value="自訂">
-        <br>
-        <button type="submit">送出</button>
-        <button type="reset">重設</button>
-        <button type="button">自訂</button>
-    
+            <input type="checkbox" name="test" value="選項A" id="optA">
+            <label for="optA">選項A</label>
+            <input type="checkbox" name="test" value="選項B" id="optB">
+            <label for="optB">選項B</label>
+            <input type="checkbox" name="test" value="選項C" id="optC">
+            <label for="optC">選項C</label>
+            <input type="checkbox" name="test" value="選項D" id="optD">
+            <label for="optD">選項D</label>
+            <br>
+            <label for="edu">學歷</label>
+            <select name="edu" id="edu">
+                <option value="國小">國小</option>
+                <option value="國中">國中</option>
+                <option value="高中職">高中職</option>
+                <option value="大專院校">大專院校</option>
+            </select>
+        
+            <br>
+            <input type="submit" value="送出">
+            <input type="reset" value="清除">
+            <input type="button" value="自訂">
+            <br>
+            <button type="submit">送出</button>
+            <button type="reset">重設</button>
+            <button type="button">自訂</button>
+        </fieldset>
     </form>
 
 
