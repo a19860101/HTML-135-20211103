@@ -14,3 +14,5 @@ Cascading Style Sheet
 標籤
 類別class
 id
+
+id選取器只能使用一次
