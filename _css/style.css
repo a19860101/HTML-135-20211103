@@ -1,6 +1,10 @@
-p {
-    color: orange;
-}
 h2 {
     color: violet;
 }
+.abc {
+    color: greenyellow;
+}
+/* 
+    首字只能使用英文與_
+    不可使用特殊符號，除了_與-
+*/

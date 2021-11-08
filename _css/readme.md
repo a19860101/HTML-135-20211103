@@ -8,3 +8,8 @@ Cascading Style Sheet
 - 嵌入式
 - 內部
 - 外部
+
+## 選取器
+
+標籤
+類別class
