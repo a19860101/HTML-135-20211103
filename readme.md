@@ -20,3 +20,8 @@ Hyper Text Markup Language
 </body>
 </html>
 ```
+
+## 元素分類
+
+- 區塊 block
+- 行內 inline
