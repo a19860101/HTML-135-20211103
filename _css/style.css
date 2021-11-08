@@ -4,6 +4,9 @@ h2 {
 .abc {
     color: greenyellow;
 }
+#xyz {
+    color: rgb(20, 188, 255);
+}
 /* 
     首字只能使用英文與_
     不可使用特殊符號，除了_與-
