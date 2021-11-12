@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            height: 3000px;
+        }
         .box {
             width: 200px;
             height: 200px;
             background-color: #098;
 
             position: relative;
-            right: 30px;
-            bottom: 50px;
+            right: 100px;
+            bottom: 0;
         }
         .box2 {
             width: 300px;
@@ -29,6 +32,9 @@
             right: 0;
             top: 0;
         }
+        /*               
+             絕對定位: 以最靠近且有設定定位(不包括static)的父元素為基準的定位，若沒有則以body為基準
+        */
     </style>
 </head>
 <body>
