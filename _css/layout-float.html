@@ -11,35 +11,27 @@
         }
         .container {
             width: 1200px;
-            font-size: 0;
-
             margin: auto;
 
-            background-color:#aaa
+            background-color: #aaa;
+            /* height: 400px */
+            /* overflow: auto; */
+            display: flow-root;
         }
         .box {
             width: 400px;
-            background-color:palegreen;
+            float: left;
+            padding: 15px;
 
-            display: inline-block;
-
-            font-size: 16px;
-            vertical-align: top;
-
-            padding:15px;
-
+            background-color:palevioletred;
         }
         /* 
-            inline-block
-            缺點: 有空隙
-            解決方式
-            1. 父元素font-size設定為0
-            2. 自己的font-size還原
-            3. 設定垂直對齊vertical-align
+            float問題
+            1. 後方元素位置會被浮動影響
+            2. 當子元素都是浮動時，父元素的高度會歸零
         
         */
     </style>
-
 </head>
 <body>
     <div class="container">
