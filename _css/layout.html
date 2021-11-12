@@ -87,6 +87,48 @@
             width: 100%;
             display: block;
         }
+        /* contact */
+        #contact {
+            padding-top: 150px;
+            padding-bottom: 150px;
+            background-color:#fffee9;
+
+        }
+        #contact h2 {
+            margin-bottom: 30px;
+            font-size: 30px;
+            text-align: center;
+        }
+        form {
+            width: 800px;
+            margin: auto;
+            /* background-color: #ccc; */
+        }
+        label {
+            display: inline-block;
+            margin-top:10px;
+            margin-bottom:5px;
+        }
+        input {
+            width: 100%;
+            padding:10px;
+        }
+        textarea {
+            width: 100%;
+        }
+        .submit {
+            
+            width: 120px;
+            display: block;
+            margin: 30px auto 0;
+        }
+
+        footer {
+            background-color: #222;
+            padding: 15px;
+            text-align: center;
+            color: #eee;
+        }
     </style>
 </head>
 <body>
@@ -94,7 +136,7 @@
         <a href="#">首頁</a>
         <a href="#about">關於我</a>
         <a href="#portfolio">作品</a>
-        <a href="#">聯絡我</a>
+        <a href="#contact">聯絡我</a>
     </nav>
     <header>
         <div class="header-content">
@@ -154,5 +196,28 @@
             </div>
         </div>
     </section>
+    <section id="contact">
+        <h2>聯絡我</h2>
+        <form action="">
+            <div>
+                <label for="name">姓名</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="mail">Email</label>
+                <input type="email" id="mail">
+            </div>
+            <div>
+                <label for="content">內容</label>
+                <textarea name="content" id="content" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="送出" class="submit">
+            </div>
+        </form>
+    </section>
+    <footer>
+        COPYRIGHT&copy;2021. Design By Name.
+    </footer>
 </body>
 </html>
